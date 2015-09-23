@@ -1,28 +1,8 @@
-ReactStarter
+Zimgur
 ====
 
-Use this as a starting point for working on chapters of the [Learn and Understand React JS](https://www.udemy.com/learn-and-understand-reactjs/) course on Udemy.com.
+This is an Imgur browser created through Stephen Grider's ReactJS tutorial on Udemy.
+https://github.com/StephenGrider/ReactStarter/releases
 
----
-
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install depdencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReactStarter.git
-	> cd ReactStarter
-	> npm install
-	> gulp
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> gulp
-```
+I've modified it so the user can customize the topics list by entering subreddits.
+I've also added buttons to customize viewed content: page number, viral, top, time etc.
