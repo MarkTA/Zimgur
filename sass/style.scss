@@ -1,0 +1,58 @@
+.black {
+  color: black
+}
+.red{
+  color:red;
+}
+.closethis{
+  position:relative;
+  float:right;
+  top:-45px;
+  left:-10px;
+}
+.group-margin{
+  margin:50px;
+}
+body{
+  background-color: #C2D1D6;
+    box-shadow:inset 0px -30px 150px 0 #EEE;
+}
+.reddit{
+  background: none;
+}
+.radioGroup{
+  display:inline-block;
+  width:inherit;
+}
+.click{
+  color:red;
+  position: absolute;
+  z-index:10;
+  top:76px;
+  left:15%;
+  max-width:15%;
+  
+}
+.click2{
+  visibility: hidden;
+  color:red;
+  position: absolute;
+  z-index:10;
+  top:100px;
+  left:15%;
+  max-width:15%;
+}
+@media screen and (max-width: 1199px) {
+    .click{
+        max-width: 10%;
+        left:20%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .click{
+        visibility: hidden;
+    }
+    .click2{
+        visibility: visible;
+    }
+}
